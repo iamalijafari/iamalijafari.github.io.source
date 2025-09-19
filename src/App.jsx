@@ -29,8 +29,8 @@ export default function App() {
       <main className="main-offset">
         <Hero />
         <About />
-        <Education />
         <Experience />
+        <Education />
         <Projects />
         <Certificates />
         <Skills />
