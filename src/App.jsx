@@ -26,8 +26,8 @@ const profile = {
   email: "alijafari98.mail@gmail.com",
   phone: "+98 933 809 9321",
   github: "https://github.com/iamalijafari",
-  linkedin: "https://linkedin.com/in/ali-jafari-545261185",
-  resume: "/assets/Ali_Jafari_Resume.pdf",
+  linkedin: "https://www.linkedin.com/in/ali-jafari-545261185",
+  resume: "/assets/Ali_Jafari_Resume_ATS.pdf",
 };
 
 const navigation = [
@@ -355,6 +355,20 @@ function Hero() {
             <span>Engineering snapshot</span>
             <span className="panel-status">Available</span>
           </div>
+          <div className="profile-frame">
+            <img
+              className="profile-photo"
+              src="/assets/profile.jpg"
+              alt="Ali Jafari, Senior Backend Engineer"
+              width="1024"
+              height="1024"
+              fetchPriority="high"
+            />
+            <div className="profile-caption">
+              <strong>Ali Jafari</strong>
+              <span>Senior Backend Engineer · .NET</span>
+            </div>
+          </div>
           <div className="code-window">
             <div className="code-dots" aria-hidden="true">
               <span />
@@ -659,7 +673,7 @@ function Contact() {
               <Linkedin aria-hidden="true" />
               <span>
                 <small>LinkedIn</small>
-                linkedin.com/in/ali-jafari-545261185
+                www.linkedin.com/in/ali-jafari-545261185
               </span>
             </a>
             <a href={profile.github} target="_blank" rel="noreferrer">

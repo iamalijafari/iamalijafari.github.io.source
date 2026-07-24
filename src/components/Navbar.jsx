@@ -24,7 +24,7 @@ export default function Navbar() {
           <motion.a href="#projects" className="px-3 py-2 rounded-md hover:bg-slate-800/60" variants={item}>Projects</motion.a>
           <motion.a href="#certificates" className="px-3 py-2 rounded-md hover:bg-slate-800/60" variants={item}>Certificates</motion.a>
           <motion.a href="#contact" className="px-3 py-2 rounded-md hover:bg-slate-800/60" variants={item}>Contact</motion.a>
-          <motion.a href="/assets/Ali_Jafari_Resume.pdf" target="_blank" rel="noreferrer" className="px-3 py-2 rounded-md border border-slate-700" variants={item}>Resume</motion.a>
+          <motion.a href="/assets/Ali_Jafari_Resume_ATS.pdf" target="_blank" rel="noreferrer" className="px-3 py-2 rounded-md border border-slate-700" variants={item}>Resume</motion.a>
         </div>
         <button className="md:hidden p-2 rounded-md text-slate-200" onClick={() => setOpen(!open)}>
           <Menu className="w-5 h-5"/>
@@ -38,7 +38,7 @@ export default function Navbar() {
           <motion.a href="#projects" className="px-3 py-2 rounded-md hover:bg-slate-800/60" variants={item}>Projects</motion.a>
           <motion.a href="#certificates" className="px-3 py-2 rounded-md hover:bg-slate-800/60" variants={item}>Certificates</motion.a>
           <motion.a href="#contact" className="px-3 py-2 rounded-md hover:bg-slate-800/60" variants={item}>Contact</motion.a>
-          <motion.a href="/assets/Ali_Jafari_Resume.pdf" target="_blank" rel="noreferrer" className="px-3 py-2 rounded-md border border-slate-700" variants={item}>Resume</motion.a>
+          <motion.a href="/assets/Ali_Jafari_Resume_ATS.pdf" target="_blank" rel="noreferrer" className="px-3 py-2 rounded-md border border-slate-700" variants={item}>Resume</motion.a>
         </motion.div>
       )}
     </nav>

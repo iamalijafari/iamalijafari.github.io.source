@@ -22,7 +22,7 @@ export default function Contact() {
           </motion.a>
         </motion.div>
         <motion.div className="mt-6 flex justify-center gap-6" variants={item}>
-          <motion.a href="https://linkedin.com/in/ali-jafari-545261185" target="_blank" rel="noreferrer" className="text-slate-300" whileHover={shouldReduce ? {} : { scale: 1.05 }}>
+          <motion.a href="https://www.linkedin.com/in/ali-jafari-545261185" target="_blank" rel="noreferrer" className="text-slate-300" whileHover={shouldReduce ? {} : { scale: 1.05 }}>
             <Linkedin className="w-6 h-6"/>
           </motion.a>
           <motion.a href="https://github.com/iamalijafari" target="_blank" rel="noreferrer" className="text-slate-300" whileHover={shouldReduce ? {} : { scale: 1.05 }}>

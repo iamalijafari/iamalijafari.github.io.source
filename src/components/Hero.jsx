@@ -18,7 +18,7 @@ export default function Hero() {
             Back-End Developer · AI Enthusiast · MSc in Biotechnology
           </p>
           <div className="mt-6 flex gap-3">
-            <a href="/assets/Ali_Jafari_Resume.pdf" target="_blank" rel="noreferrer" className="inline-flex items-center px-4 py-2 bg-indigo-600 rounded-md font-medium shadow-lg">Resume</a>
+            <a href="/assets/Ali_Jafari_Resume_ATS.pdf" target="_blank" rel="noreferrer" className="inline-flex items-center px-4 py-2 bg-indigo-600 rounded-md font-medium shadow-lg">Resume</a>
             <a href="#contact" className="inline-flex items-center px-4 py-2 border border-slate-700 rounded-md text-slate-200">Contact</a>
           </div>
         </motion.div>
