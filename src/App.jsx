@@ -16,7 +16,6 @@ import {
   Mail,
   MapPin,
   Menu,
-  Phone,
   Server,
   Sparkles,
   X,
@@ -24,7 +23,6 @@ import {
 
 const profile = {
   email: "alijafari98.mail@gmail.com",
-  phone: "+98 933 809 9321",
   github: "https://github.com/iamalijafari",
   linkedin: "https://www.linkedin.com/in/ali-jafari-545261185",
   resume: "/assets/Ali_Jafari_Resume_ATS.pdf",
@@ -333,10 +331,6 @@ function Hero() {
           </div>
 
           <div className="hero-meta">
-            <span>
-              <MapPin size={16} aria-hidden="true" />
-              Tehran, Iran
-            </span>
             <span>
               <Sparkles size={16} aria-hidden="true" />
               Critical Skills eligible · Open to relocation
@@ -660,13 +654,6 @@ function Contact() {
               <span>
                 <small>Email</small>
                 {profile.email}
-              </span>
-            </a>
-            <a href={`tel:${profile.phone.replaceAll(" ", "")}`}>
-              <Phone aria-hidden="true" />
-              <span>
-                <small>Phone</small>
-                {profile.phone}
               </span>
             </a>
             <a href={profile.linkedin} target="_blank" rel="noreferrer">
